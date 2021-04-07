@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Mix */
+.btn {
+  padding: 3px 10px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+select,
+.btn {
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 16px;
+  color: #F3DFA2;
+  background-color: #52050A;
+  background-color: #792315;
+}
+
+/* Generate-emails section  */
+#email-generator {
+  border: 2px solid #F3DFA2;
+  background-color: #4B4E6D;
+  color: #F3DFA2;
+  letter-spacing: 1px;
+  font-size: 18px;
+  text-shadow: 0.5px 0.5px 1px black;
+  width: max-content;
+  padding: 20px;
+}
+
+h4 {
+  font-size: 22px;
+}
