@@ -12,7 +12,7 @@
 <body>
   <section id="email-generator">
     <h4 class="mb-20">Suggestions</h4>
-    <button class="btn mr-20 mb-20" @click="generateEmails()" type="button" name="button">Generate</button>
+    <button :class="btnDisable" class="btn mr-20 mb-20" @click="generateEmails()" type="button" name="button">Generate</button>
     <span>Show:</span>
     <select name="email-quantity" v-model="emailQuantity">
       <option v-for="n in 10" :value="n">{{ n }}</option>

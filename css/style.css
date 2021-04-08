@@ -35,6 +35,10 @@ select,
   background-color: #792315;
 }
 
+.btn.disabled {
+  pointer-events: none;
+}
+
 /* Generate-emails section  */
 #email-generator {
   border: 2px solid #F3DFA2;
